@@ -1,0 +1,119 @@
+/* font styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+/* let's make banner design */
+.banner-container{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 1240px;
+   height: 550px;
+   background-color: rgba(229, 84, 115, 0.1);
+  
+}
+.banner-text{
+ width: 50%;
+ height: 550px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ 
+}
+.banner-img{
+    width: 50%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-img img{
+    width: 50%;
+    height: 550px;
+}
+.banner-inside{
+    display: flex;
+    
+    width: 90%;
+    margin: 0 auto;
+}
+.banner-text .h1d{
+    color: rgb(39, 39, 39);
+     text-align:left;
+     margin-right: 320px;
+}
+.banner-text .p1d{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+}
+.banner-text .btn1{
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    margin-right: 450px;
+    padding: 10px 20px;
+    margin-top: 10px;
+
+}
+
+/* feature image container */
+.feature-image-container{
+    margin: 0 auto;
+    margin-top: 80px;
+    width: 90%;
+   height: 650px;
+   border: 2px solid green;
+}
+.featured-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.featured-image {
+    display: flex;
+  margin-left: 30px;
+  gap: 10px;
+  margin-top: 20px;
+    
+}
+#first{
+    width: 350px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50% 50% 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+#second{
+    width: 350px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50% 50% 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+#third{
+    width: 350px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50% 50% 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+.pic{
+    text-align: center;
+    margin-top: 10px;
+}
